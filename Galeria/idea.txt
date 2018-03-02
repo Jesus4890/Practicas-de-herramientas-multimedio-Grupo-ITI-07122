@@ -1,0 +1,7 @@
+pelota.y+=dis;
+	if(pelota.hitTestObject(ob)){
+		pelota.y= ob.y-pelota.height;
+		if(arriba==true){
+			pelota.y-=veloci;
+		}
+	}

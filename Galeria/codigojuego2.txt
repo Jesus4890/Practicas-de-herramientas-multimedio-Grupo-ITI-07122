@@ -1,0 +1,7 @@
+ob.x=lastab.x +dist_btW_obstaculos;
+lastab=ob;
+ob.covered= false;
+lin.x= ob.x-305;
+lin.y= ob.y+15;
+lastline= lin;
+}
